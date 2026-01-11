@@ -11,7 +11,7 @@ background-image:   url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f
 
 
 }
-.b1 p{
+.b1 p{ 
     font-size: x-large;
 
 }
@@ -32,7 +32,7 @@ background-image:   url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f
     
     width: 50%;
     border-radius: 20px;
-    
+            
      display: flex;
      justify-content: center;
 }
@@ -79,7 +79,7 @@ background-image:   url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f
     background-color: rgb(19, 111, 19);
     height: 375px;
     width: 40%;
-    border: 1px solid black;
+    border: 1px solid black;    
     
 }
 .t14{
@@ -155,6 +155,95 @@ justify-content: center;
 .osn{
     color: darkcyan;
     
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .b1 {
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+    }
+
+    .b2 {
+        width: 90%;
+        justify-content: center;
+    }
+
+    .t90 {
+        width: 25%; 
+        position: static; 
+    }
+
+    .b3 {
+        flex-direction: column;
+        gap: 15px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .bron {
+        width: 90%;
+        font-size: medium;
+    }
+
+    .b4 {
+        flex-direction: column;
+        gap: 30px;
+        height: auto;
+        padding: 10px;
+    }
+
+    .armata, .leop {
+        width: 90%;
+        height: auto;
+    }
+
+    .t14, .abr {
+        height: auto;
+        max-height: 250px;
+        object-fit: cover;
+    }
+
+    .b5 .social {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    .inter {
+        font-size: smaller;
+        text-align: center;
+    }
+
+    .texre {
+        width: 90%;
+    }
+}
+
+
+@media (min-width: 769px) {
+    .b1 {
+        width: 50%;
+    }
+
+    .b2 {
+        width: 50%;
+    }
+
+    .b4 {
+        flex-direction: row;
+        gap: 150px;
+    }
+
+    .armata, .leop {
+        width: 40%;
+    }
 }
        </style>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
